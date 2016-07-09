@@ -1,15 +1,15 @@
 package com.qacg;
 
 import com.utils.StringUtils;
+import com.qacg.utils.MailUtils;
 
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Hola mundo");
 		String cadena = "Hola mundo";
 		
 		System.out.println(StringUtils.toLowerCase(cadena));
-
+		MailUtils.send("mghh_10@hotmail.com");
 	}
 
 }
